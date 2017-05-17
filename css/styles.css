@@ -1,0 +1,195 @@
+* {
+ box-sizing: border-box;
+}
+
+body{
+ margin:0;
+ min-height: 100vh;
+ font-family: 'Audiowide';
+ background-image: url("../image/fondoweb.png");
+ background-size: cover;
+}
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  background-color: #ff6f9f;
+  margin: 0;
+  padding: 0;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.gamesBy{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+.scriptInvadersContainer{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.scriptInvaders{
+width: 150px;
+margin-left: 5px;
+}
+.container{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+}
+.titlePagPpal{
+  color: black;
+
+}
+h2{
+  margin: 0;
+  font-size: 50px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.startgame1, .startgame2{
+  text-decoration: none;
+  font: 35px 'Audiowide';
+  color: black;
+  background-color: #F9FA5A;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.imgstartgame2{
+    width: 180px;
+}
+
+.mainFooter{
+  background-color: #43AFFB;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+}
+.socialMedia{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.pfooter{
+  margin: 0;
+}
+.icon{
+  width: 40px;
+  margin-left: 10px;
+}
+.iconTwitter{
+  width: 90px;
+}
+.textfooter{
+  width: 50%;
+  font-size: 25px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+/*css del juego 1*/
+
+.titleCrazyNumbers{
+  padding-bottom: 20px;
+}
+
+.bigInput {
+  text-align: center;
+  background-color: white;
+  outline: none;
+  border: 3px solid #F84882;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.bigButton {
+  background-color: #F9FA5A ;
+  outline: none;
+  border: 3px solid #F84882 ;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family:'Audiowide';
+}
+
+input[type=number]::-webkit-outer-spin-button,
+
+input[type=number]::-webkit-inner-spin-button {
+
+   -webkit-appearance: none;
+
+   margin: 0;
+}
+
+input[type=number] {
+
+   -moz-appearance:textfield;
+
+}
+
+#feedback,
+#attempts {
+  font-size: 25px;
+}
+.comeBack{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.comeBackGame{
+  width: 50%;
+  text-align: right;
+
+}
+.comeBackMenu{
+  width: 50%;
+  text-align: left;
+}
+.imageAction{
+  height: 120px;
+}
+.shrink:hover{
+  transform: scale(0.8);
+}
+
+.withTransition {
+  transition: all 1s ease;
+}
+.cardsPictures {
+  width: 150px;
+}
+
+/*css del juego 2*/
+
+.buttonGiveCard{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#punctuationDisplay,
+#gameOver,
+#stand {
+  font-size: 25px;
+}
